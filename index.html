@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../Bootstrap/bootstrap.css">
+    <style>
+        *{
+            background-color: black;
+
+        }
+        div table{
+            margin: auto auto;
+        }
+    </style>
+</head>
+<body  >
+    <div class="container-fluid  text-center">
+
+        <h1 class="text-center text-success my-5">To Do App</h1>
+        <div class="row py-3" id="div1">
+            <div class="form-group m-auto col-4 mb-3">
+                
+                <input id="task" placeholder="Add task"  type="text" class=" text-dark form-control  " >
+            </div>
+        </div>
+
+        <div class="row my-2 mx-2  p-4 border border-1 border-secondary " >
+            <h2 class="text-warning  " >Your Task added here</h2>
+            <hr class="mx-auto text-center w-25" >
+            <div id="listbox">
+                <table id="table" >
+                    <td class="text-primary fs-2" >Task Name</td>
+                    <td></td>
+                    <td></td>
+                </table>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
